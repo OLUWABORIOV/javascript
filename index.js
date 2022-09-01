@@ -4,7 +4,6 @@
 
 //console.log(myage)
 
-let MyAge = 35
-let MyDogAge = 7
-let count = MyAge * MyDogAge
-console.log(count)
+let bonuspoints = 50
+bonuspoints = 50 + 50 - 75 + 70
+console.log(bonuspoints)
