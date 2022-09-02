@@ -1,8 +1,8 @@
 // document.getElementById("count").innerText = 5
 
- let count = 5
- count = count + 1
- console.log(count)
+ //let count = 5
+ //count = count + 1
+ //console.log(count)
 
 // create a variable, bonuspoints. initialize it as 50. Increase it to 100.
 //let count = 5
