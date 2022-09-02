@@ -30,6 +30,39 @@
 //bonusPoints = bonusPoints + 45
 //console.log(bonusPoints)
 
-function increment() {
-    console.log("The button was clicked")
+//function increment() {
+   // console.log("The button was clicked")
+//}
+
+ 
+
+/*function countdown() {
+      console.log(5)
+      console.log(4)
+      console.log(3)
+      console.log(2)
+      console.log(1)
 }
+
+// setting up the race
+
+countdown()
+// countdown()
+
+// Go
+// Players are running the race 
+
+countdown()
+
+
+console.log(5)
+console.log(4)
+console.log(3)
+console.log(2)
+console.log(1)*/
+
+function myLogger() {
+    console.log(42)
+}
+
+myLogger()
