@@ -36,33 +36,67 @@
 
  
 
-/*function countdown() {
-      console.log(5)
-      console.log(4)
-      console.log(3)
-      console.log(2)
-      console.log(1)
-}
+//function countdown() {
+  //    console.log(5)
+   //   console.log(4)
+   //   console.log(3)
+   //   console.log(2)
+    //  console.log(1)
+//}
 
 // setting up the race
 
-countdown()
+//countdown()
 // countdown()
 
 // Go
 // Players are running the race 
 
-countdown()
+//countdown()
 
 
-console.log(5)
-console.log(4)
-console.log(3)
-console.log(2)
-console.log(1)*/
+//console.log(5)
+//console.log(4)
+//console.log(3)
+//console.log(2)
+//console.log(1)*/
 
-function myLogger() {
-    console.log(42)
+//function myLogger() {
+//    console.log(42)
+//}
+
+//myLogger()
+
+/*let lap1 = 34
+let lap2 = 33
+let lap3 = 36
+
+// create a function that logs out the sum of all the lap time
+function logLapTime() {
+    let totalTime = lap1 + lap2 + lap3
+    console.log(totalTime)
 }
 
-myLogger()
+logLapTime()*/
+
+
+// document,GetElementById("count").innerText = 5
+
+// let count = 5
+// count = count + 1
+// cosolw.log(count)
+
+// 
+// change the count-el in the HTML to reflect the new count
+
+let countEL = document.getElementById("count-el")
+console.log(countEL)
+
+let count = 0
+
+function increment() {
+    count = count + 1
+
+    console.log(count)
+}
+
