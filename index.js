@@ -110,9 +110,16 @@ logLapTime()*/
 //let messageToUser = message + ", " + username + "!"
 //console.log(messageToUser)
 
-let name = "Per Harald Borgen"
-let greeting = "Hi, my name is "
+//let name = "Per Harald Borgen"
+//let greeting = "Hi, my name is "
 
-let myGreeting = greeting + name
-console.log(myGreeting)
+//let myGreeting = greeting + name
+//console.log(myGreeting)
 
+//let points = 4
+//let bonusPoints = "10"
+
+//let totalPoints = points + bonusPoints
+//console.log(totalPoints)
+
+// 9, 24, 51, 100100
