@@ -116,10 +116,10 @@ logLapTime()*/
 //let myGreeting = greeting + name
 //console.log(myGreeting)
 
-//let points = 4
-//let bonusPoints = "10"
+let points = 4
+let bonusPoints = "10"
 
-//let totalPoints = points + bonusPoints
-//console.log(totalPoints)
+let totalPoints = points + bonusPoints
+console.log(totalPoints)
 
-// 9, 24, 51, 100100
+9, 24, 51, 100100
