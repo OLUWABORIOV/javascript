@@ -116,10 +116,23 @@ logLapTime()*/
 //let myGreeting = greeting + name
 //console.log(myGreeting)
 
-let points = 4
-let bonusPoints = "10"
+//let points = 4
+//let bonusPoints = "10"
 
-let totalPoints = points + bonusPoints
-console.log(totalPoints)
+//let totalPoints = points + bonusPoints
+//console.log(totalPoints)
 
-9, 24, 51, 100100
+//console.log(4+5) 
+//console.log("2" + "4") 
+//console.log("5" + 1) 
+//console.log(100 + "100") 
+
+let welcomeEl= document.getElementById("welcome-el")
+
+let name = "Per Harold Borgen"
+let greeting = "Welcome back "
+
+welcomeEl.innerText = greeting + name
+
+welcomeEl.innerText = welcomeEl.innerText + "👋"
+
