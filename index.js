@@ -88,21 +88,25 @@ logLapTime()*/
 
 // 
 // change the count-el in the HTML to reflect the new count
+let saveEl = document.getElementById("save-el")
+let countEL = document.getElementById("count-el")
+let count = 0
 
-//let countEL = document.getElementById("count-el")
+console.log(saveEl)
 
-//let count = 0
+function increment() {
+    count += 1
+    countEL.innerText = count
+}
 
-//function increment() {
-//    count = count + 1
-//    countEL.innerText = count
-//}
 
-// 1. Create a function, save(), which logs out the count when it's called
+function save() {
+    let countStr = count + " - "
 
-//function save() {
-//    console.log(count)
-//}
+saveEl.innerText += countStr
+
+console.log(count)
+
 
 //let username = 'per'
 //let message = "you have tree new notifications"
@@ -127,12 +131,12 @@ logLapTime()*/
 //console.log("5" + 1) 
 //console.log(100 + "100") 
 
-let welcomeEl= document.getElementById("welcome-el")
+//let welcomeEl= document.getElementById("welcome-el")
 
-let name = "Per Harold Borgen"
-let greeting = "Welcome back "
+//let name = "Per Harold Borgen"
+//let greeting = "Welcome back "
 
-welcomeEl.innerText = greeting + name
+//welcomeEl.innerText = greeting + name
 
-welcomeEl.innerText = welcomeEl.innerText + "👋"
+//welcomeEl.innerText = welcomeEl.innerText + "👋"
 
