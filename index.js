@@ -104,11 +104,15 @@ logLapTime()*/
 //    console.log(count)
 //}
 
-let username = 'per'
-let message = "you have tree new notifications"
+//let username = 'per'
+//let message = "you have tree new notifications"
 
-let messageToUser = message + ", " + username + "!"
-console.log(messageToUser)
+//let messageToUser = message + ", " + username + "!"
+//console.log(messageToUser)
 
+let name = "Per Harald Borgen"
+let greeting = "Hi, my name is "
 
+let myGreeting = greeting + name
+console.log(myGreeting)
 
