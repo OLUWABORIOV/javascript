@@ -89,23 +89,21 @@ logLapTime()*/
 // 
 // change the count-el in the HTML to reflect the new count
 let saveEl = document.getElementById("save-el")
-let countEL = document.getElementById("count-el")
+let counEl = document.getElementById("count-el")
 let count = 0
 
 console.log(saveEl)
 
 function increment() {
     count += 1
-    countEL.innerText = count
+    counEl.innerText = count
 }
-
 
 function save() {
     let countStr = count + " - "
 
-saveEl.innerText += countStr
-
-console.log(count)
+    saveEl.innerText += countStr
+}
 
 
 //let username = 'per'
