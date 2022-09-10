@@ -96,13 +96,13 @@ console.log(saveEl)
 
 function increment() {
     count += 1
-    counEl.innerText = count
+    counEl.textContent = count
 }
 
 function save() {
     let countStr = count + " - "
 
-    saveEl.innerText += countStr
+    saveEl.textContent += countStr
 }
 
 
