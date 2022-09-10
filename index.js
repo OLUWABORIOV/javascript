@@ -92,8 +92,6 @@ let saveEl = document.getElementById("save-el")
 let counEl = document.getElementById("count-el")
 let count = 0
 
-console.log(saveEl)
-
 function increment() {
     count += 1
     counEl.textContent = count
@@ -103,6 +101,8 @@ function save() {
     let countStr = count + " - "
 
     saveEl.textContent += countStr
+    counEl.textContent = 0
+    count = 0
 }
 
 
