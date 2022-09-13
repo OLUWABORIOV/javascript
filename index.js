@@ -144,4 +144,10 @@ logLapTime()*/
 //let fullname = firstname + ' ' + lastname
 //console.log(fullname)
 
+let name = "Linda"
+let greeting = "Hi there"
 
+function grl() {
+    console.log(greeting + ", " + name + "!")
+}
+grl()
