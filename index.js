@@ -138,7 +138,10 @@ logLapTime()*/
 
 //welcomeEl.innerText = welcomeEl.innerText + "👋"
 
-let firstname = 'Bori'
-let lastname = 'Odeyale'
-let fullname = firstname + ' ' + lastname
-console.log(fullname)
+//let firstname = 'per'
+//let lastname = 'borgen'
+
+//let fullname = firstname + ' ' + lastname
+//console.log(fullname)
+
+
