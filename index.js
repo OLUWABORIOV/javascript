@@ -88,22 +88,22 @@ logLapTime()*/
 
 // 
 // change the count-el in the HTML to reflect the new count
-let saveEl = document.getElementById("save-el")
-let counEl = document.getElementById("count-el")
-let count = 0
+//let saveEl = document.getElementById("save-el")
+//let counEl = document.getElementById("count-el")
+//let count = 0
 
-function increment() {
-    count += 1
-    counEl.textContent = count
-}
+//function increment() {
+//    count += 1
+//    counEl.textContent = count
+//}
 
-function save() {
-    let countStr = count + " - "
+//function save() {
+//    let countStr = count + " - "
 
-    saveEl.textContent += countStr
-    counEl.textContent = 0
-    count = 0
-}
+ //   saveEl.textContent += countStr
+ //   counEl.textContent = 0
+ //   count = 0
+//}
 
 
 //let username = 'per'
@@ -138,3 +138,6 @@ function save() {
 
 //welcomeEl.innerText = welcomeEl.innerText + "👋"
 
+let firstname = 'Bori'
+let lastname = 'Odeyale'
+let fullname = firstname + lastname
