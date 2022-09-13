@@ -140,4 +140,5 @@ logLapTime()*/
 
 let firstname = 'Bori'
 let lastname = 'Odeyale'
-let fullname = firstname + lastname
+let fullname = firstname + ' ' + lastname
+console.log(fullname)
