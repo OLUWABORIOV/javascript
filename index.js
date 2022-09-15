@@ -147,7 +147,8 @@ logLapTime()*/
 let name = "Linda"
 let greeting = "Hi there"
 
-function grl() {
-    console.log(greeting + ", " + name + "!")
+function grt() {
+   console.log(greeting + ", " + name + "!")
 }
-grl()
+grt()
+
