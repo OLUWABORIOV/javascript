@@ -144,11 +144,14 @@ logLapTime()*/
 //let fullname = firstname + ' ' + lastname
 //console.log(fullname)
 
-let name = "Linda"
-let greeting = "Hi there"
+//let name = "Linda"
+//let greeting = "Hi there"
 
-function grt() {
-   console.log(greeting + ", " + name + "!")
+//function grt() {
+//   console.log(greeting + ", " + name + "!")
+//}
+//grt()
+function purchase() {
+   console.log(button clicked)
 }
-grt()
 
