@@ -1,118 +1,119 @@
-//let count = 5 + 7
+// //let count = 5 + 7
 
-// //console.log(count)
-// let myAge = 22
-// let humanDogRatio = 4
-// let myDogAge = myAge * humanDogRatio
+// // //console.log(count)
+// // let myAge = 22
+// // let humanDogRatio = 4
+// // let myDogAge = myAge * humanDogRatio
 
-// console.log(myDogAge)
+// // console.log(myDogAge)
 
-// let bonusPoints = 50
+// // let bonusPoints = 50
 
-// bonusPoints = bonusPoints
+// // bonusPoints = bonusPoints
 
-// bonusPoints = bonusPoints - 25
+// // bonusPoints = bonusPoints - 25
 
-// bonusPointsn = bonusPoints + 45
+// // bonusPointsn = bonusPoints + 45
 
-// console.log(bonusPoint)
-// function increment() {
-    // console.log("the button was clicked")
-// }
-// function countdown() {
-    // console.log(5)
-    // console.log(4)
-    // console.log(3)
-    // console.log(2)
-    // console.log(1)
-// }
+// // console.log(bonusPoint)
+// // function increment() {
+//     // console.log("the button was clicked")
+// // }
+// // function countdown() {
+//     // console.log(5)
+//     // console.log(4)
+//     // console.log(3)
+//     // console.log(2)
+//     // console.log(1)
+// // }
 
-// countdown()
+// // countdown()
 
-// countdown()
+// // countdown()
 
-// countdown()
+// // countdown()
 
-// countdown()
+// // countdown()
 
-// function bori() {
-    // console.log(42)
-// }
-// bori()
-// let lap1 = 34
-// let lap2 = 33 
-// let lap3 = 36
+// // function bori() {
+//     // console.log(42)
+// // }
+// // bori()
+// // let lap1 = 34
+// // let lap2 = 33 
+// // let lap3 = 36
 
-// function bori() {
-    // console.log(lap1 + lap2 + lap3)
-// }
+// // function bori() {
+//     // console.log(lap1 + lap2 + lap3)
+// // }
 
-// bori()
+// // bori()
 
-// let lapsCompleted = 0
+// // let lapsCompleted = 0
 
-// function incrementlap() {
-//     lapsCompleted = lapsCompleted + 1
-// }
-//     incrementlap()
-//     incrementlap()
-//     incrementlap()
+// // function incrementlap() {
+// //     lapsCompleted = lapsCompleted + 1
+// // }
+// //     incrementlap()
+// //     incrementlap()
+// //     incrementlap()
 
-// console.log(lapsCompleted)
+// // console.log(lapsCompleted)
 
-// let count = 0
+// // let count = 0
 
-// function increment() {
-//      ount)
-// }
-// let count = 0
+// // function increment() {
+// //      ount)
+// // }
+// // let count = 0
 
-// function increment() {
-//     count = count + 1
-//     console.log("count")
-// }
+// // function increment() {
+// //     count = count + 1
+// //     console.log("count")
+// // }
 
-// 
+// // 
 
-// 
+// // 
 
-// let countEl = document.getElementById("count-el")
+// // let countEl = document.getElementById("count-el")
 
-// console.log(countEl)
+// // console.log(countEl)
 
-// let count = 0
+// // let count = 0
 
-// function increment() {
-//     count = count + 1
-//     countEl.innerText = count
-// }
+// // function increment() {
+// //     count = count + 1
+// //     countEl.innerText = count
+// // }
 
-// let count = 0
-// 
+// // let count = 0
+// // 
 
-// function increment() {
-//     count = count + 1
-//     countEl.innerText = count
-// }
+// // function increment() {
+// //     count = count + 1
+// //     countEl.innerText = count
+// // }
 
-// let countEl = document.getElementById("count-el")
-// let count = 0
+// // let countEl = document.getElementById("count-el")
+// // let count = 0
 
-// function increment() {
-//     count = count + 1
-//     countEl.innerText = count
-// }
+// // function increment() {
+// //     count = count + 1
+// //     countEl.innerText = count
+// // }
 
-// function save() {
-//     console.log(count)
-// }
+// // function save() {
+// //     console.log(count)
+// // }
 
-let username = "per"
+// let username = "per"
 
-console.log(username)
+// let message = "you have tree in you notifications" 
 
-let message = "you have tree in you notifications"
+// let messageToUser = message + username
 
+// console.log(messageToUser)
 
 
 
@@ -179,11 +180,21 @@ let message = "you have tree in you notifications"
 
 
 
-// let message = "You have tree new notifications"
 
-// console.log(message)
 
 
+
+
+// // let message = "You have tree new notifications"
+
+// // console.log(message)
+
+let name = "Oluwbori"
+
+let greeting = "Hi, my name is "
+
+let myGreeting = myGreeting + name
+console.log(myGreeting)
 
 
 
