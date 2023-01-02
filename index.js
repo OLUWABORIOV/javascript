@@ -1,200 +1,55 @@
-// //let count = 5 + 7
+let firstCard = 10
+let secondCard = 11
+let sum = firstCard + secondCard + 4
+let hasBlackJack = false
+let isAlive = true 
+let message = ""
+if (sum <= 20) {
+  message = "Do you want to draw a new card? 🙂"
+} else if (sum === 21) {
+    message = "Wohoo! You've got Blackjack! 🥳"
+    hasBlackJack = true
+} else {
+    message = "You're out of the game! 😭"
+   isAlive = false
+}
+console.log(message)
+
+
+//if (sum < 21) {
+//    console.log("Do you want to draw a new card? 🙂")
+//}
+//else if (sum === 21) {
+//    console.log("Wohoo! You've got Blackjack! 🥳")
+//}
+//else if (sum > 21) {
+//    console.log("You're out of the game! 😭")
+//}
+
+//let age = 22
+ 
+//if (age < 21) {
+//    console.log("You can not enter the club 😭")
+//}
+//else {
+//    console.log("Welcome! 🥳")
+//}
+
+//let age = 45
+
+//if(age < 100) {
+//    console.log("Not eligible 😭")
+//} else if (age === 100) {
+//    console.log("Here is your birthday card from the king! 🥳")
+//} 
+//else  {
+//    console.log("Not eligible, you have already gotten one")
+//}
 
-// // //console.log(count)
-// // let myAge = 22
-// // let humanDogRatio = 4
-// // let myDogAge = myAge * humanDogRatio
 
-// // console.log(myDogAge)
 
-// // let bonusPoints = 50
 
-// // bonusPoints = bonusPoints
 
-// // bonusPoints = bonusPoints - 25
-
-// // bonusPointsn = bonusPoints + 45
-
-// // console.log(bonusPoint)
-// // function increment() {
-//     // console.log("the button was clicked")
-// // }
-// // function countdown() {
-//     // console.log(5)
-//     // console.log(4)
-//     // console.log(3)
-//     // console.log(2)
-//     // console.log(1)
-// // }
-
-// // countdown()
-
-// // countdown()
-
-// // countdown()
-
-// // countdown()
-
-// // function bori() {
-//     // console.log(42)
-// // }
-// // bori()
-// // let lap1 = 34
-// // let lap2 = 33 
-// // let lap3 = 36
-
-// // function bori() {
-//     // console.log(lap1 + lap2 + lap3)
-// // }
-
-// // bori()
-
-// // let lapsCompleted = 0
-
-// // function incrementlap() {
-// //     lapsCompleted = lapsCompleted + 1
-// // }
-// //     incrementlap()
-// //     incrementlap()
-// //     incrementlap()
-
-// // console.log(lapsCompleted)
-
-// // let count = 0
-
-// // function increment() {
-// //      ount)
-// // }
-// // let count = 0
-
-// // function increment() {
-// //     count = count + 1
-// //     console.log("count")
-// // }
-
-// // 
-
-// // 
-
-// // let countEl = document.getElementById("count-el")
-
-// // console.log(countEl)
-
-// // let count = 0
-
-// // function increment() {
-// //     count = count + 1
-// //     countEl.innerText = count
-// // }
-
-// // let count = 0
-// // 
-
-// // function increment() {
-// //     count = count + 1
-// //     countEl.innerText = count
-// // }
-
-// // let countEl = document.getElementById("count-el")
-// // let count = 0
-
-// // function increment() {
-// //     count = count + 1
-// //     countEl.innerText = count
-// // }
-
-// // function save() {
-// //     console.log(count)
-// // }
-
-// let username = "per"
-
-// let message = "you have tree in you notifications" 
-
-// let messageToUser = message + username
-
-// console.log(messageToUser)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// // let message = "You have tree new notifications"
-
-// // console.log(message)
-
-let name = "Oluwbori"
-
-let greeting = "Hi, my name is "
-
-let myGreeting = myGreeting + name
-console.log(myGreeting)
 
 
 
