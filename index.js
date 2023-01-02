@@ -4,6 +4,7 @@ let sum = firstCard + secondCard + 4
 let hasBlackJack = false
 let isAlive = true 
 let message = ""
+
 if (sum <= 20) {
   message = "Do you want to draw a new card? 🙂"
 } else if (sum === 21) {
@@ -46,7 +47,9 @@ console.log(message)
 //    console.log("Not eligible, you have already gotten one")
 //}
 
-
+function Start Game() {
+    
+}
 
 
 
