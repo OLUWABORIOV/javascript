@@ -71,14 +71,11 @@ function newCard() {
     
 }
 
-let dayOfMonth = 13
-let weekday = "Friday"
+let hands = ["rock", "paper", "scissor"]
 
-// If it is Friday the 13th, log out this spooky face: 😱
-// Use the logical "AND operator" -> &&
-
-if (dayOfMonth === 13 && weekday === "Friday") {
-    console.log("😱")
+// Create a function that returns a random item from the array
+function getHand() {
+    console.log( )
 }
 
 
